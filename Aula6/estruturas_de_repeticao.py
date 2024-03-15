@@ -105,6 +105,18 @@ def fatorial(num):
 
 fatorial(5)
 
+"outra maneira (recurciva) jeito inteligente"
+"cria um stackoverflow uma pilha de execução vai ativando varias funções e no final ele executa tudo"
+
+def fatorial_2(num):
+    if num == 1:
+        return 1
+    return num * fatorial_2(num-1)
+print(fatorial_2(5))
+
+
+"""random. biblioteca que gera valores pseudo aleatorios """
+
 
 
 
